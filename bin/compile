@@ -170,7 +170,7 @@ source $BIN_DIR/steps/cryptography
 source $BIN_DIR/steps/numpy-scipy
 
 # Ortools support
-source $BIN_DIR/steps/ortools
+#source $BIN_DIR/steps/ortools
 
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
