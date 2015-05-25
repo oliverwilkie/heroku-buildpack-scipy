@@ -59,6 +59,9 @@ function install_prebuilt {
 
   # Install the package, by downloading and unzipping the prebuilt package.
   local name="${pkg}-${install_version}"
+
+  puts-step "Installing $pkg ($install_version) using easy_install"
+  easy_install "$pkg==${install_version}"
 }
 
 REQ_TXT=$(pwd)/requirements.txt
